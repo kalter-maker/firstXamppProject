@@ -1,0 +1,53 @@
+.header {
+    background-color: blue;
+    color: white;
+}
+
+.main {
+    background-color: antiquewhite;
+}
+
+.footer {
+    background-color: red;
+    color: yellow;
+}
+
+.knowledge {
+    background-color: cadetblue;
+}
+
+.header,
+.main,
+.knowledge,
+.footer {
+    padding: 2rem;
+}
+
+.data,
+.header,
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+ul {
+    align-items: flex-start;
+}
+
+li a {
+    display: flex;
+    color: white;
+    padding-right: 100px;
+}
+
+.myImg {
+    display: flex;
+}
+
+img,
+.logo {
+    display: flex;
+    height: 250px;
+}
